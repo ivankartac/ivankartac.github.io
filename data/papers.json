@@ -4,17 +4,27 @@
     "authors": "Ivan Kartáč, Mateusz Lango, Ondřej Dušek",
     "venue": "ACL 2026",
     "links": [
-      { "label": "preprint", "url": "https://arxiv.org/abs/2603.20133" },
+      { "label": "paper", "url": "https://aclanthology.org/2026.acl-long.560" },
       { "label": "code", "url": "https://github.com/ivankartac/boulder" }
     ],
     "abstract": "Large Language Models (LLMs) achieve strong performance on many reasoning benchmarks, yet these evaluations typically focus on isolated tasks that differ from real-world usage in task-oriented dialogue (TOD). In this setting, LLMs must perform reasoning inherently while generating text and adhering to instructions on role, format, and style. This mismatch raises concerns about whether benchmark performance accurately reflects models' reasoning robustness in TOD setting. We investigate how framing reasoning tasks within TOD affects LLM performance by introducing BOULDER, a new dynamic benchmark covering eight travel-related tasks that require arithmetic, spatial, and temporal reasoning with both commonsense and formal aspects. Each problem is presented in both isolated and dialogue-based variants, enabling controlled comparison while mitigating data contamination. Experiments on eight LLMs reveal a substantial and consistent performance gap between isolated and dialogue settings. Through ablations and qualitative analysis, we show that this gap is largely driven by the multi-turn nature of dialogue, with additional effects from role conditioning and tool-use requirements. Our results highlight the need to evaluate LLM reasoning in realistic interactive scenarios."
+  },
+  {
+    "title": "VetScore: Risk-Weighted Fact Verification for Veterinary Long-Form QA with Citations",
+    "authors": "Ivan Kartáč, Jan Tovarys, Mateusz Lango, Ondřej Dušek",
+    "venue": "Preprint",
+    "links": [
+      { "label": "preprint", "url": "https://arxiv.org/pdf/2608.03675" },
+      { "label": "code", "url": "https://github.com/PrimVet/VetScore" }
+    ],
+    "abstract": "Citation excerpts can be used to increase the reliability of generated outputs and their faithfulness to cited sources, which is especially important in high-stakes domains such as human and veterinary medicine. However, this does not guarantee that generated claims are faithful to the provided excerpts. We present VetScore, a multi-step evaluation method for veterinary long-form question answering, designed to assess how well are generated claims supported by the provided excerpts, weighing this information by each claim's harm potential. VetScore first segments the output and decomposes it into individual claims, then scores each claim with respect to its harm potential and evaluates its faithfulness to source excerpts, and finally calculates the overall risk-adjusted score. We collect an expert-annotated meta-evaluation dataset, evaluate our approach with a range of judge models, and show that it achieves high correlations with veterinary experts even with small judge models, while offering explainability across multiple dimensions."
   },
   {
     "title": "UFAL-CUNI at SemEval-2026 Task 11: An Efficient Modular Neuro-symbolic Method for Syllogistic Reasoning",
     "authors": "Ivan Kartáč, Kristýna Onderková, Jan Bronec, Zdeněk Kasner, Mateusz Lango, Ondřej Dušek",
     "venue": "SemEval-2026 workshop at ACL 2026",
     "links": [
-      { "label": "preprint", "url": "https://arxiv.org/abs/2605.04941" },
+      { "label": "paper", "url": "https://aclanthology.org/2026.semeval-1.418" },
       { "label": "code", "url": "https://github.com/ivankartac/SemEval-2026_task11" }
     ],
     "abstract": "This paper describes our system submitted to SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models. We present an efficient modular neuro-symbolic approach, combining a symbolic prover with small reasoning LLMs (4B parameters). The system consists of an LLM-based parser that translates natural language syllogisms to a first-order logic (FOL) representation, an automated theorem prover, and two optional modules: machine translation for multilingual inputs and a symbolic retrieval component for the identification of relevant premises. The system achieves competitive accuracy and relatively low content effect on most subtasks. Our ablations show that this approach outperforms LLM-based zero-shot baselines in this parameter size range, but also reveal limited multilingual capabilities of small LLMs. Finally, we include a discussion of the task's main ranking metric and analyze its limitations."
