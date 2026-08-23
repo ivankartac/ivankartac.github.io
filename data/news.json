@@ -1,6 +1,14 @@
 [
   {
+    "date": "08/2026",
+    "html": "I gave a talk at the <a href=\"https://nask-nlp.github.io\">NLP seminar at NASK - National Research Institute</a>, Warsaw. Slides available <a href=\"https://bit.ly/nasknlp-ik\">here</a>."
+  },
+  {
+    "date": "07/2026",
+    "html": "Presented two papers at <a href=\"https://2026.aclweb.org\">ACL 2026</a> in San Diego (1 main + 1 workshop)."
+  },
+  {
     "date": "04/2026",
-    "html": "Our paper on <a href=\"https://arxiv.org/abs/2603.20133\">evaluating LLMs on reasoning tasks embedded in dialogue</a> was accepted at ACL 2026!"
+    "html": "Our paper <a href=\"https://arxiv.org/abs/2603.20133\">Reasoning Gets Harder for LLMs Inside A Dialogue</a> was accepted at ACL 2026!"
   }
 ]

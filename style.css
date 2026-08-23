@@ -14,7 +14,7 @@
 }
 
 [data-theme="dark"] {
-  --color-bg: #0f1115;
+  --color-bg: #1a1c22;
   --color-text: #e8e8e8;
   --color-muted: #9aa0a6;
   --color-border: #2a2e34;
@@ -22,7 +22,7 @@
 }
 
 [data-theme="dark"] .topbar {
-  background: rgba(15, 17, 21, 0.85);
+  background: rgba(26, 28, 34, 0.85);
 }
 
 [data-theme="dark"] .topbar__nav a:hover,
